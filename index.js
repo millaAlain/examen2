@@ -13,11 +13,11 @@ function verificarEdad(edad) {
 
     if(edad == 18){
         mensaje = "Justo tienes 18";
-    } else if (edad > 18){
+    } else if (edad > 18 && edad < 21){
         mensaje = "Eres mayor de edad";
     } else if(edad >= 21){
         mensaje = "Puedes beber alcohol";
-    }else{
+    }else if(edad < 18){
         mensaje = "Eres menor de edad";
     }
 
